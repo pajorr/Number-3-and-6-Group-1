@@ -9,12 +9,12 @@ int main()
 	float year = 2016;
 		float rise = oceanlevel+1.5;
 		
-	while(year<2032)
+	while(year < 2032)
 	{
 		std::cout<<year++;
 		std::cout<<" will rise by :";
-		std::cout<<rise++;
-		std::cout<<"mm"<<std::endl;
+		std::cout<< rise++;
+		std::cout<<"mm"<< std::endl;
 	}
 
 	return 0;
@@ -37,7 +37,7 @@ int main()
 		while(i<=time)
 		{
 			distance=speed*i;
-			std::cout<<"Hour";std::cout<<"   ";std::cout<<"Distance travelled"<<std::endl;
+			std::cout<<"Hour";std::cout<<"   ";std::cout<<"Distance travelled"<< std::endl;
 			std::cout<<i<<"      "<<distance<<std::endl;
 			i++;
 		}
