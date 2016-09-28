@@ -3,12 +3,6 @@ Ocean Levels &amp; Distance Travelled
 
 Ocean Levels
 
-#include <stdio.h>
-#include <cmath>
-#include <iostream> 
-#include <stdlib.h>
-#include <cstdlib>
-#include <ctime>
 int main()
 {
 	float oceanlevel = 0;
